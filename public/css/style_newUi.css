@@ -1,0 +1,63 @@
+/*Custome Style Sachi*/
+/*Login*/
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
+
+.form-signin {
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 15px;
+}
+
+.toggleHead {
+    background: #424242;
+    padding:11px;
+}
+
+.head-white {
+    color: #FFF;
+    margin: 0px;
+}
+
+
+.cust-nav-tab-wrap {
+    padding: 15px 0;
+}
+.cust-nav-tab {
+    border: 0px;
+}
+
+.cust-nav-tab {text-align: center;}
+.cust-nav-tab > li {
+    display: inline-block;
+    float: none;
+    margin: 0px;
+}
+
+.cust-nav-tab > li.active > a, .cust-nav-tab > li.active > a:focus, .cust-nav-tab > li.active > a:hover {
+    border-radius: 0px;
+    background: #333;
+    color: #FFF;
+    box-shadow: none;
+    border: 1px solid #424242;
+}
+
+.cust-nav-tab > li > a {
+    color: #424242;
+    transition: all ease 0.6s;
+    border: 1px solid #424242;
+    border-radius: 0px;
+    top: 0px;
+}
+.cust-nav-tab > li > a:focus, .cust-nav-tab > li > a:hover {
+    background: #333;
+    color: #FFF;
+    box-shadow: none;
+    text-decoration: none;
+    border: 1px solid #424242;
+    
+}
